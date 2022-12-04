@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Kinopreise</title>
+    <link href="pictures/sunlight.png" rel="icon">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 
