@@ -63,7 +63,7 @@ if(isset($_POST["family"])){
 if(isset($_POST["dim"])){
     if($_POST["dim"] == "2d" && $cards >= 5){
         $finalCost = $finalCost - ($finalCost*0.1);
-        print "Rabatt durch 2D Film und 5 oder mehr Personen: $finalCost € <br>";
+        print "Rabatt durch 2D Film und $cards Personen: $finalCost € <br>";
     }
 }
 
