@@ -31,14 +31,14 @@ $costChild = 8;
 $adult = $_POST["adult"] ?? 0;
 $child = $_POST["child"] ?? 0;
 
-$cards = $adult+$child;
-
 if($adult == null){
     $adult = 0;
 }
 if($child == null){
     $child = 0;
 }
+
+$cards = $adult+$child;
 
 $finalAdult = $costAdult * $adult;
 $finalChild = $costChild * $child;
