@@ -17,10 +17,10 @@
 Familienkarte <input type="radio" name="family" value="ja">Ja
 <input type="radio" name="family" value="nein" checked>Nein<br>
 
-2D oder 3D Filme <input type="radio" name="dim" value="2d" checked>Ja
-<input type="radio" name="dim" value="3d">Nein<br>
+Film Dimension <input type="radio" name="dim" value="2d" checked>2D
+<input type="radio" name="dim" value="3d">3D<br>
 
-<button type="submit" name="submit">Berechnen</button><br>
+<button type="submit" name="submit">Berechnen</button><br><br>
 </form>
 
 <?php
@@ -49,9 +49,10 @@ if($finalCost < 0 || $finalAdult < 0 || $finalChild < 0){
     return;
 }
 
+print "Es sind $cards Karten!<br><br>";
 print "Erwachsene: $adult | $finalAdult € <br>";
 print "Kinder: $child | $finalChild € <br>";
-print "Gesamtpreis: $finalCost € <br>";
+print "Gesamtpreis: $finalCost € <br><br>";
 
 if(isset($_POST["family"])){
     if($_POST["family"] == "ja"){
