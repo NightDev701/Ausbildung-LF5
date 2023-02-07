@@ -49,7 +49,7 @@ if($finalCost < 0 || $finalAdult < 0 || $finalChild < 0){
     return;
 }
 
-print "Es sind $cards Karten!<br><br>";
+print "Es wurden $cards Karten verkauft!<br><br>";
 print "Erwachsene: $adult | $finalAdult € <br>";
 print "Kinder: $child | $finalChild € <br>";
 print "Gesamtpreis: $finalCost € <br><br>";
