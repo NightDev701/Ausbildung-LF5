@@ -12,13 +12,13 @@
 
 <form action="formular.php" method="post">
 <input type="number" name="adult" placeholder="Erwachsene"><br>
-<input type="number" name="child" placeholder="Kinder"><br>
+<input type="number" name="child" placeholder="Kinder"><br><br>
 
 Familienkarte <input type="radio" name="family" value="ja">Ja
 <input type="radio" name="family" value="nein" checked>Nein<br>
 
 Film Dimension <input type="radio" name="dim" value="2d" checked>2D
-<input type="radio" name="dim" value="3d">3D<br>
+<input type="radio" name="dim" value="3d">3D<br><br>
 
 <button type="submit" name="submit">Berechnen</button><br><br>
 </form>
