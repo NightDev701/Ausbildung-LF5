@@ -43,11 +43,9 @@
 
         if($result1 < $result2 && $result1 < $result3) {
             echo "Der Tarif 1 ist am günstigen mit {$result1} €";
-        }
-        if($result2 < $result1 && $result2 < $result3) {
+        } else if($result2 < $result1 && $result2 < $result3) {
             echo "Der Tarif 2 ist am günstigen mit {$result2} €";
-        }
-        if($result3 < $result2 && $result3 < $result1) {
+        }else if($result3 < $result2 && $result3 < $result1) {
             echo "Der Tarif 3 ist am günstigen mit {$result3} €";
         }
     }
