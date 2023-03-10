@@ -12,7 +12,9 @@
 
 <form action="fahrschein.php" method="post">
     Km <input type="number" name="km" placeholder="Kilometer"><br>
-    Fahrkarte <input type="radio" name="human" value="normal" checked>Erwachsen
+    Fahrkarte
+    <input type="radio" name="human" value="normal" checked>Erwachsen
+    <input type="radio" name="human" value="school">Schüler
     <input type="radio" name="human" value="child">Kind<br>
 
     <button type="submit" name="submit">Berechnen</button><br><br>
@@ -28,10 +30,10 @@ if(isset($_POST["km"])){
 
         $price = number_format($distance * 0.28, 2, ',');
 
-        if($_POST["human"] == "child"){
+        if($_POST["human"] == "child" || $_POST["human"] == "school"){
             $child_price = number_format($price - ($price * 0.3), 2, ',');
             echo "Price: $child_price €<br>";
-        } else {
+        }  else {
             echo "Price: $price €<br>";
         }
 
