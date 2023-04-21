@@ -9,8 +9,14 @@
 <body>
 <?php
 
-echo "!";
+$filmlänge = 120;
+$zuschlag = 0.5;
 
+while($filmlänge <= 180){
+    $filmlänge = $filmlänge + 15;
+    $zuschlag = $zuschlag + 0.5;
+    echo "$filmlänge Min $zuschlag EUR<br>";
+}
 
 ?>
 </body>
