@@ -17,7 +17,7 @@ $gewinnstufe = 1;
 $zuschlag = 0.5;
 
 while ($gewinnstufe <= 5) {
-    echo $gewinnstufe .": " . $geld . " €<br>";
+    echo "Gewinnstufe ".$gewinnstufe .": " . $geld . " €<br>";
     $geld = $geld * $zuschlag + $geld;
     $gewinnstufe = $gewinnstufe + 1;
 }
