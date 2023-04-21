@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Kinopreise</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../pictures/sunlight.png" rel="icon">
     <link href="../css/style.css" rel="stylesheet">
 </head>
@@ -24,6 +26,16 @@ Film Dimension <input type="radio" name="dim" value="2d" checked>2D
 </form>
 
 <?php
+
+$filmlänge = 120;
+$zuschlag = 0.5;
+
+while($filmlänge <= 180){
+    $filmlänge = $filmlänge + 15;
+    $zuschlag = $zuschlag + 0.5;
+    echo "$filmlänge Min $zuschlag EUR<br>";
+}
+echo "<br>";
 
 $costAdult = 11;
 $costChild = 8;
