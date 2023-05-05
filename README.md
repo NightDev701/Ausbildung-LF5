@@ -1,3 +1,3 @@
 # Schule
 
-Test Seite: http://45.85.218.127/schule/
+Test Seite: https://sunlightscorpion.de/schule/
