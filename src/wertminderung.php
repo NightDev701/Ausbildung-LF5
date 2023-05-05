@@ -44,8 +44,8 @@ if(isset($_POST["submit"])){
         return;
     }
 
-    echo "$anschaffung <br>";
-    echo "$restwert <br>";
+    echo "Anschaffungswert: $anschaffung €<br>";
+    echo "Restwert: $restwert €<br><br>";
 
     while($anschaffung > $restwert){
         echo "$count >> $anschaffung €<br>";
