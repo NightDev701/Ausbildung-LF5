@@ -25,7 +25,7 @@ if(isset($_POST["submit"])){
     $anschaffung = $_POST["buy"];
     $jaehrliche_minderung = $_POST["year"];
     $restwert = $_POST["end"];
-    $count = 1;
+    $count = 0;
 
     if($restwert < 0){
         echo "Es darf kein Negativ wert geben als Restwert!<br>";
