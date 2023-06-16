@@ -21,8 +21,8 @@ $i = 0;
 while($i < $anlagedauer){
     $i++;
 
-    echo "$i) ".number_format($k1, 2, ".")."€<br>";
-    $k1 = $k1 + $k1 * 0.05;
+    echo "$i) ".number_format($k1, 2, ".")." €<br>";
+    $k1 = $k1 + $k1 * ($prozent / 100);
 
 }
 
