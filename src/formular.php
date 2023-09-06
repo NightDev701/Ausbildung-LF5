@@ -27,12 +27,12 @@ Film Dimension <input type="radio" name="dim" value="2d" checked>2D
 
 <?php
 
-$filmlänge = 120;
+$filmlaenge = 120;
 $zuschlag = 0.5;
 
-while($filmlänge <= 180){
-    echo "$filmlänge Min $zuschlag EUR<br>";
-    $filmlänge = $filmlänge + 15;
+while($filmlaenge <= 180){
+    echo "$filmlaenge Min $zuschlag EUR<br>";
+    $filmlaenge = $filmlaenge + 15;
     $zuschlag = $zuschlag + 0.5;
 }
 echo "<br>";
