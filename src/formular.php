@@ -90,7 +90,7 @@ $preisstufe[2] = 13.50;
 echo "<b>Preis nach Kategorie</b><br><br>";
 
 do{
-    echo "Kategorie $kategorie: ".$preisstufe[$i]." Euro<br>";
+    echo "Kategorie $kategorie: ".$preisstufe[$i]." €j<br>";
     $kategorie = $kategorie+1;
     $i = $i+1;
 } while($i < count($preisstufe));
