@@ -79,6 +79,23 @@ if(isset($_POST["dim"])){
     }
 }
 
+$preisstufe = array();
+$i = 0;
+$kategorie = 1;
+
+$preisstufe[0] = 11.00;
+$preisstufe[1] = 12.00;
+$preisstufe[2] = 13.50;
+
+echo "<b>Preis nach Kategorie</b><br><br>";
+
+do{
+    echo "Kategorie $kategorie: ".$preisstufe[$i]." Euro<br>";
+    $kategorie = $kategorie+1;
+    $i = $i+1;
+} while($i < count($preisstufe));
+
+
 unset($adult);
 unset($child);
 
