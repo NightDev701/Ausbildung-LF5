@@ -19,6 +19,7 @@ for ($i = 0; $i < count($umsaetze); $i++) {
     echo "Quatal " . ($i + 1) . ": " . $umsaetze[$i] . "€<br>";
 }
 
+echo "Das niedrigste Einkommen beträgt " . min($umsaetze) . "€<br>";
 echo "Das höchste Einkommen beträgt " . max($umsaetze) . "€<br>";
 
 ?>
