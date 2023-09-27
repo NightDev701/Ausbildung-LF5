@@ -26,7 +26,9 @@ $monat_umsatz = [
     "Dezember" => 91000
 ];
 
-
+foreach ($monat_umsatz as $item => $umsatz) {
+    echo ">> $umsatz";
+}
 
 
 ?>
