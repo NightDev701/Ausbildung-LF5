@@ -12,18 +12,18 @@
 <?php
 
 $monat_umsatz = [
-    "Januar" => 27,
-    "Februar" => 18,
-    "März" => 12,
-    "April" => 13,
-    "Mai" => 15,
-    "Juni" => 20,
-    "Juli" => 785,
-    "August" => 245,
-    "September" => 715,
-    "Oktober" => 295,
-    "November" => 67,
-    "Dezember" => 45
+    "Januar" => 27000,
+    "Februar" => 18000,
+    "März" => 12000,
+    "April" => 13000,
+    "Mai" => 15000,
+    "Juni" => 20000,
+    "Juli" => 785000,
+    "August" => 245000,
+    "September" => 715000,
+    "Oktober" => 295000,
+    "November" => 67000,
+    "Dezember" => 91000
 ];
 
 
